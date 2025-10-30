@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body{
+    font-family: "IBM Plex Mono", monospace;;
+}
+
+header {
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+model-viewer {
+    width: 100%;
+    height: 30vw;
+}
+
+.wrapper {
+    max-width: 1275px;
+    margin: auto;
+}
+
+.purple-bkg {
+    background-color: #A7ACC5;
+    padding: 80px;
+}
+
+.pink-bkg {
+    background-color: #FFB7B2;
+    padding: 80px;
+}
+
+.green-bkg {
+    background-color: #9AD8CF;
+    padding: 80px;
+}
+
+.yellow-bkg {
+    background-color: #FFD99D;
+    padding: 80px;
+}
+
+.grid-parent-slider{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 25px;
+}
+
+.grid-parent-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    text-align: center;
+}
+
+    .audio-card {
+        background: rgb(255, 235, 238);
+
+    }
+
+    .primary-nav {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 40px;
+    }
+
+.logo{
+    text-decoration: none;
+    color: #3B3B3B;
+    display: flex;  
+    align-items: center;
+}
+
+.logo-sm{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 26px;
+    font-weight: 660;
+    width:120px;
+    text-align: right;
+}
+
+.logo-lrg{
+    font-family: "IBM Plex sans", monospace;
+    font-size: 83px;
+    font-weight: 660;
+}
+
+.button{
+    text-decoration: none;
+    color: #000;
+    background: #FFB7B2;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 27px;
+}
+
+.button-hover{
+    background-color: #FF9A95;
+}

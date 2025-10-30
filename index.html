@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <!-- day one, fix images and add other images -->
+    <head>
+        <title>Museum of Me</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+
+    <body>
+        <header> 
+            <a href="index.html" class="logo">
+                <span class="logo-sm">Museum of</span> 
+                <span class="logo-lrg">Me</span></a>
+            <nav>
+                <ul class=" primary-nav">
+                <li><a href="current.html">current stats</a></li>
+                <li><a href="archive.html">archive </a></li>
+                <li><a href="logs.html">logs</a></li>
+            </ul>
+            </nav>
+        </header>
+
+    
+
+    <section class="purple-bkg">
+        <div class="wrapper">
+            <h1>Items I use</h1>
+            <p>Rowlet keychain</p>
+            <div class="grid-parent-slider">
+                <div><model-viewer src="assets/slippers.glb" auto-rotate camera-controls></model-viewer></div>
+                <div><p>My favorite keychain, a birthday gift from Jin. A staple of my bag I never leave home without.</p>
+                    <a href="#" class="button">button</a>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="yellow-bkg">
+        <h1>People I see</h1>
+
+        <div class="grid-parent-3">
+            <div> <p>Evie</p> 
+                <img src="images/Evie.png" alt="Evie photo"></div>
+            <div><p>Juliana</p>  
+                <img src="images/Juliana.png" alt="Juliana photo"></div>
+            <div><p>Jin</p>
+                <img src="images/Jin.png" alt="Jin photo"></div>
+        </div>
+
+       
+    </section>
+
+    <section class="green-bkg">
+        <h1>Places I am</h1>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1JfQtCDJLSvQQ4f3lFUBuzDWoPISb1Pw&ehbc=2E312F" width="640" height="480"></iframe>
+    </section>
+
+    <section class="pink-bkg">
+        <h1>Things I hear</h1>
+        <div class = grid-parent-3>
+            <div class = audio-card> 
+            <div><p>Recorded on 09/30</p>
+                <p>"Good Morning."</p>
+                <audio controls>
+                    <source src="assets/cat_meow.mp3"
+                        type="audio/mpeg">  </audio></div> </div>
+      <div class = audio-card>  <p>Recorded on 09/29</p>
+        <p>"Yes Evie, I saw the new southpark episode." 
+            <audio controls>
+                <source src="assets/cat_meow.mp3"
+                    type="audio/mpeg">  
+        </p></div>
+      <div class = audio-card><p>Recorded on 09/26</p>
+        <p>"Hi! Could I please get..."
+            <audio controls>
+                <source src="assets/cat_meow.mp3"
+                    type="audio/mpeg">  
+        </p></div>
+        
+    </div>
+    </section>
+</body>
+
+</html>
