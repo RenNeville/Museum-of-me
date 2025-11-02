@@ -1,10 +1,20 @@
 *{
+  margin: 0%;
     box-sizing: border-box;
 }
 
 body, html {
     min-height: 100vh;
     margin: 0;
+}
+
+img {
+    max-width: 100%;
+   padding-top: 20px;
+}
+
+main {
+    text-align: center;
 }
 
 body{
@@ -46,6 +56,11 @@ model-viewer {
 .yellow-bkg {
     background-color: #FFD99D;
     padding: 80px;
+}
+
+iframe {
+    width: 100%;
+    height: 20vw;
 }
 
 .grid-parent-slider{
@@ -104,6 +119,6 @@ model-viewer {
     border-radius: 27px;
 }
 
-.button-hover{
-    background-color: #FF9A95;
+.button:hover{
+    background-color: #b56e6a;
 }
